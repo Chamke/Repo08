@@ -1,6 +1,6 @@
 function randomInteger(){
-    var randomNumber = Math.floor(Math.random()*30);
-    return randomNumber;
+    return Math.floor(Math.random()*30);
+    
 }
 
 console.log(randomInteger());

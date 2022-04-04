@@ -1,6 +1,5 @@
 function convertStrToInt(str){
-    var a = parseInt(str);
-    return a;
+    return parseInt(str);
 }
 
 console.log(convertStrToInt("44"));
